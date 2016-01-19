@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB40B90D1C4EFE21009398A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B90C1C4EFE21009398A7 /* AppDelegate.swift */; };
+		BB40B90F1C4EFE21009398A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B90E1C4EFE21009398A7 /* ViewController.swift */; };
+		BB40B9121C4EFE21009398A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB40B9101C4EFE21009398A7 /* Main.storyboard */; };
+		BB40B9151C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB40B9131C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodeld */; };
+		BB40B9171C4EFE21009398A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB40B9161C4EFE21009398A7 /* Assets.xcassets */; };
+		BB40B91A1C4EFE21009398A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB40B9181C4EFE21009398A7 /* LaunchScreen.storyboard */; };
+		BB40B9251C4EFE21009398A7 /* Driving_Data_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B9241C4EFE21009398A7 /* Driving_Data_RecorderTests.swift */; };
+		BB40B9301C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B92F1C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB40B9211C4EFE21009398A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB40B9011C4EFE20009398A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB40B9081C4EFE21009398A7;
+			remoteInfo = "Driving Data Recorder";
+		};
+		BB40B92C1C4EFE21009398A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB40B9011C4EFE20009398A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB40B9081C4EFE21009398A7;
+			remoteInfo = "Driving Data Recorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB40B9091C4EFE21009398A7 /* Driving Data Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driving Data Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB40B90C1C4EFE21009398A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB40B90E1C4EFE21009398A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB40B9111C4EFE21009398A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB40B9141C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Driving_Data_Recorder.xcdatamodel; sourceTree = "<group>"; };
+		BB40B9161C4EFE21009398A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB40B9191C4EFE21009398A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB40B91B1C4EFE21009398A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB40B9201C4EFE21009398A7 /* Driving Data RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driving Data RecorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB40B9241C4EFE21009398A7 /* Driving_Data_RecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Data_RecorderTests.swift; sourceTree = "<group>"; };
+		BB40B9261C4EFE21009398A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB40B92B1C4EFE21009398A7 /* Driving Data RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driving Data RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB40B92F1C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Data_RecorderUITests.swift; sourceTree = "<group>"; };
+		BB40B9311C4EFE21009398A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB40B9061C4EFE21009398A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB40B91D1C4EFE21009398A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB40B9281C4EFE21009398A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB40B9001C4EFE20009398A7 = {
+			isa = PBXGroup;
+			children = (
+				BB40B90B1C4EFE21009398A7 /* Driving Data Recorder */,
+				BB40B9231C4EFE21009398A7 /* Driving Data RecorderTests */,
+				BB40B92E1C4EFE21009398A7 /* Driving Data RecorderUITests */,
+				BB40B90A1C4EFE21009398A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB40B90A1C4EFE21009398A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB40B9091C4EFE21009398A7 /* Driving Data Recorder.app */,
+				BB40B9201C4EFE21009398A7 /* Driving Data RecorderTests.xctest */,
+				BB40B92B1C4EFE21009398A7 /* Driving Data RecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB40B90B1C4EFE21009398A7 /* Driving Data Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				BB40B90C1C4EFE21009398A7 /* AppDelegate.swift */,
+				BB40B90E1C4EFE21009398A7 /* ViewController.swift */,
+				BB40B9101C4EFE21009398A7 /* Main.storyboard */,
+				BB40B9161C4EFE21009398A7 /* Assets.xcassets */,
+				BB40B9181C4EFE21009398A7 /* LaunchScreen.storyboard */,
+				BB40B91B1C4EFE21009398A7 /* Info.plist */,
+				BB40B9131C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodeld */,
+			);
+			path = "Driving Data Recorder";
+			sourceTree = "<group>";
+		};
+		BB40B9231C4EFE21009398A7 /* Driving Data RecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB40B9241C4EFE21009398A7 /* Driving_Data_RecorderTests.swift */,
+				BB40B9261C4EFE21009398A7 /* Info.plist */,
+			);
+			path = "Driving Data RecorderTests";
+			sourceTree = "<group>";
+		};
+		BB40B92E1C4EFE21009398A7 /* Driving Data RecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB40B92F1C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift */,
+				BB40B9311C4EFE21009398A7 /* Info.plist */,
+			);
+			path = "Driving Data RecorderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB40B9081C4EFE21009398A7 /* Driving Data Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB40B9341C4EFE21009398A7 /* Build configuration list for PBXNativeTarget "Driving Data Recorder" */;
+			buildPhases = (
+				BB40B9051C4EFE21009398A7 /* Sources */,
+				BB40B9061C4EFE21009398A7 /* Frameworks */,
+				BB40B9071C4EFE21009398A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Driving Data Recorder";
+			productName = "Driving Data Recorder";
+			productReference = BB40B9091C4EFE21009398A7 /* Driving Data Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB40B91F1C4EFE21009398A7 /* Driving Data RecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB40B9371C4EFE21009398A7 /* Build configuration list for PBXNativeTarget "Driving Data RecorderTests" */;
+			buildPhases = (
+				BB40B91C1C4EFE21009398A7 /* Sources */,
+				BB40B91D1C4EFE21009398A7 /* Frameworks */,
+				BB40B91E1C4EFE21009398A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB40B9221C4EFE21009398A7 /* PBXTargetDependency */,
+			);
+			name = "Driving Data RecorderTests";
+			productName = "Driving Data RecorderTests";
+			productReference = BB40B9201C4EFE21009398A7 /* Driving Data RecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB40B92A1C4EFE21009398A7 /* Driving Data RecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB40B93A1C4EFE21009398A7 /* Build configuration list for PBXNativeTarget "Driving Data RecorderUITests" */;
+			buildPhases = (
+				BB40B9271C4EFE21009398A7 /* Sources */,
+				BB40B9281C4EFE21009398A7 /* Frameworks */,
+				BB40B9291C4EFE21009398A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB40B92D1C4EFE21009398A7 /* PBXTargetDependency */,
+			);
+			name = "Driving Data RecorderUITests";
+			productName = "Driving Data RecorderUITests";
+			productReference = BB40B92B1C4EFE21009398A7 /* Driving Data RecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB40B9011C4EFE20009398A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DesignX;
+				TargetAttributes = {
+					BB40B9081C4EFE21009398A7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BB40B91F1C4EFE21009398A7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BB40B9081C4EFE21009398A7;
+					};
+					BB40B92A1C4EFE21009398A7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BB40B9081C4EFE21009398A7;
+					};
+				};
+			};
+			buildConfigurationList = BB40B9041C4EFE20009398A7 /* Build configuration list for PBXProject "Driving Data Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB40B9001C4EFE20009398A7;
+			productRefGroup = BB40B90A1C4EFE21009398A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB40B9081C4EFE21009398A7 /* Driving Data Recorder */,
+				BB40B91F1C4EFE21009398A7 /* Driving Data RecorderTests */,
+				BB40B92A1C4EFE21009398A7 /* Driving Data RecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB40B9071C4EFE21009398A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40B91A1C4EFE21009398A7 /* LaunchScreen.storyboard in Resources */,
+				BB40B9171C4EFE21009398A7 /* Assets.xcassets in Resources */,
+				BB40B9121C4EFE21009398A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB40B91E1C4EFE21009398A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB40B9291C4EFE21009398A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB40B9051C4EFE21009398A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40B90F1C4EFE21009398A7 /* ViewController.swift in Sources */,
+				BB40B9151C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodeld in Sources */,
+				BB40B90D1C4EFE21009398A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB40B91C1C4EFE21009398A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40B9251C4EFE21009398A7 /* Driving_Data_RecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB40B9271C4EFE21009398A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40B9301C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB40B9221C4EFE21009398A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB40B9081C4EFE21009398A7 /* Driving Data Recorder */;
+			targetProxy = BB40B9211C4EFE21009398A7 /* PBXContainerItemProxy */;
+		};
+		BB40B92D1C4EFE21009398A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB40B9081C4EFE21009398A7 /* Driving Data Recorder */;
+			targetProxy = BB40B92C1C4EFE21009398A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB40B9101C4EFE21009398A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB40B9111C4EFE21009398A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB40B9181C4EFE21009398A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB40B9191C4EFE21009398A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB40B9321C4EFE21009398A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB40B9331C4EFE21009398A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB40B9351C4EFE21009398A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Driving Data Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB40B9361C4EFE21009398A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Driving Data Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB40B9381C4EFE21009398A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Driving Data RecorderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driving Data Recorder.app/Driving Data Recorder";
+			};
+			name = Debug;
+		};
+		BB40B9391C4EFE21009398A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Driving Data RecorderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-RecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driving Data Recorder.app/Driving Data Recorder";
+			};
+			name = Release;
+		};
+		BB40B93B1C4EFE21009398A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Driving Data RecorderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Driving Data Recorder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BB40B93C1C4EFE21009398A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Driving Data RecorderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-RecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Driving Data Recorder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB40B9041C4EFE20009398A7 /* Build configuration list for PBXProject "Driving Data Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB40B9321C4EFE21009398A7 /* Debug */,
+				BB40B9331C4EFE21009398A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB40B9341C4EFE21009398A7 /* Build configuration list for PBXNativeTarget "Driving Data Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB40B9351C4EFE21009398A7 /* Debug */,
+				BB40B9361C4EFE21009398A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB40B9371C4EFE21009398A7 /* Build configuration list for PBXNativeTarget "Driving Data RecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB40B9381C4EFE21009398A7 /* Debug */,
+				BB40B9391C4EFE21009398A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB40B93A1C4EFE21009398A7 /* Build configuration list for PBXNativeTarget "Driving Data RecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB40B93B1C4EFE21009398A7 /* Debug */,
+				BB40B93C1C4EFE21009398A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB40B9131C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB40B9141C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodel */,
+			);
+			currentVersion = BB40B9141C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodel */;
+			path = Driving_Data_Recorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB40B9011C4EFE20009398A7 /* Project object */;
+}
