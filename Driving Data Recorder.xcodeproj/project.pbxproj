@@ -15,6 +15,7 @@
 		BB40B91A1C4EFE21009398A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB40B9181C4EFE21009398A7 /* LaunchScreen.storyboard */; };
 		BB40B9251C4EFE21009398A7 /* Driving_Data_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B9241C4EFE21009398A7 /* Driving_Data_RecorderTests.swift */; };
 		BB40B9301C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B92F1C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift */; };
+		BB40B93E1C4F06B6009398A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40B93D1C4F06B6009398A7 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BB40B92B1C4EFE21009398A7 /* Driving Data RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driving Data RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40B92F1C4EFE21009398A7 /* Driving_Data_RecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Data_RecorderUITests.swift; sourceTree = "<group>"; };
 		BB40B9311C4EFE21009398A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB40B93D1C4F06B6009398A7 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BB40B90C1C4EFE21009398A7 /* AppDelegate.swift */,
 				BB40B90E1C4EFE21009398A7 /* ViewController.swift */,
+				BB40B93D1C4F06B6009398A7 /* LocationManager.swift */,
 				BB40B9101C4EFE21009398A7 /* Main.storyboard */,
 				BB40B9161C4EFE21009398A7 /* Assets.xcassets */,
 				BB40B9181C4EFE21009398A7 /* LaunchScreen.storyboard */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					BB40B9081C4EFE21009398A7 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P5LF7NY8D9;
 					};
 					BB40B91F1C4EFE21009398A7 = {
 						CreatedOnToolsVersion = 7.2;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB40B93E1C4F06B6009398A7 /* LocationManager.swift in Sources */,
 				BB40B90F1C4EFE21009398A7 /* ViewController.swift in Sources */,
 				BB40B9151C4EFE21009398A7 /* Driving_Data_Recorder.xcdatamodeld in Sources */,
 				BB40B90D1C4EFE21009398A7 /* AppDelegate.swift in Sources */,
@@ -403,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Driving Data Recorder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Driving Data Recorder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "designx.Driving-Data-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
