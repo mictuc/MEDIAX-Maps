@@ -7,6 +7,10 @@
 //
 
 import CoreLocation
+import CoreData
+import CoreMotion
+import UIKit
+
 
 /// Manages apps location data
 class LocationManager: NSObject, CLLocationManagerDelegate {
@@ -16,6 +20,19 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     
     /// Array of CLLocations to be used by other classes
     var locations = [CLLocation]()
+    
+    /// Manager for core data objects
+    let managedObjectContext = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
+    
+    /// AppDelegate to manage data and processes for the app
+    let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    
+    /// Drive event
+    lazy var drive = NSManagedObject() as! Drive
+    
+    /// Timestamp for beginning of drive
+    var startMonitoringDate: NSDate!
+
     
     ///Initializes self
     override init() {
@@ -40,6 +57,14 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         sharedLocation.manager.startUpdatingLocation()
         drive = NSEntityDescription.insertNewObjectForEntityForName("Drive", inManagedObjectContext: managedObjectContext) as! Drive
         startMonitoringDate = NSDate()
+    }
+    
+    /**
+     Stores the timestamp and locations data to the drive.
+     */
+    func storeDeviceMotionData(){
+        drive.timestamp = startMonitoringDate
+        drive.locations = sharedLocation.locations
     }
     
     /**
